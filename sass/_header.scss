@@ -1,0 +1,33 @@
+body {
+	margin:0px;
+	padding: 0px;
+}
+
+.header {
+
+	background: #ffffff;
+	height: $height-header;
+
+	&__humberger {
+
+	}
+	&__nav {
+		background: #ffffff;
+		margin-bottom: 0px;
+		border: 0px;
+		margin-top: 30px;
+	}
+	&__menu {
+		li {
+			font-family: $font-aleo-regular;
+			font-size: $font-size-menu;
+		}
+	}
+
+}
+
+@media only screen and (max-width:768px){
+	.header {
+		
+	}
+}

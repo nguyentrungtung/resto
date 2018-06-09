@@ -1,0 +1,41 @@
+.footer {
+	background: #3b3b3b;
+	height: 317px;
+	width: 100%;
+	color: #ffffff;
+
+	display: flex;
+	align-items: center;
+
+	&__ul-item {
+		padding-left: 0px;
+		li {
+			list-style-type: none;
+			margin-bottom: 21px;
+			a {
+				text-decoration: none;
+				color: #ffffff;
+			}
+		}
+	}
+	&__img-logo {
+		margin-bottom: 31px;
+	}
+	p {
+		padding-bottom: 16px;
+		margin-bottom: 0px;
+	}
+}
+
+@media only screen and (max-width:768px){
+	.footer {
+		height: 320px;
+		&__colum1 {
+			display: none;
+		}
+		&__colum2 {
+			display: none;
+		}
+	}
+
+}

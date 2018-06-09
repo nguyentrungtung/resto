@@ -1,0 +1,67 @@
+.featured {
+
+	margin-bottom: 195px;
+	&__param {
+		margin-bottom :75px;
+		font-family: $font-aleo-regular-bold;
+		font-size: $fon-size-paragrap;
+
+		&-title {
+			display: block;
+			float: left;
+			padding-right: 20px;
+			
+			}
+	}
+
+	&__title {
+		margin-bottom: 14px;
+		font-family: $font-aleo-regular-light;
+		font-size: 16px;
+		&-text {
+			float: left;
+		}
+		&-price {
+			float: right;
+		}
+	}
+
+	&__img {
+		margin-bottom: 30px;
+		img {
+			width:100%;
+			
+		}
+
+	}
+	
+	&--line {
+		width: 200px;
+		float: left;
+		padding-top: 16px;
+		border-bottom: 1px solid #e5e3e3;
+		/*background: #e5e3e3;*/
+	}
+
+	&__rating {
+		color: yellow;
+	}
+
+
+
+}
+
+@media only screen and (max-width:768px){
+	.featured {
+		&__rating {
+			margin-bottom :20px;
+		}
+
+		&__param-title {
+			padding-left:15px;
+		}
+		&--line {
+			margin-left:15px;
+		}
+	}
+}

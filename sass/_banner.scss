@@ -1,0 +1,36 @@
+.banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+    width: 100%;
+    height: 570px;
+    background-image: url(../images/banner-top.png);
+
+    &__text {
+    	h2 {
+			color: $color-text-banner;
+			font-family: $font-wcmanoge;
+    		font-size: 100px;
+            text-align: center;
+    	}
+    	p {
+    		color: $color-text-banner;
+    		text-align: center;
+            font-size:$font-size-banner-second;
+    	}
+
+    }
+
+}
+
+@media only screen and (max-width:768px){
+    .banner {
+        height: 400px;
+        &__text {
+            h2 {
+                font-size:48px;
+            }
+        }
+    }
+}
